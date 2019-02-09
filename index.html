@@ -1,0 +1,190 @@
+<!-- <!DOCTYPE html>
+<html>
+
+<head>
+	<title>Battleship Game</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="app.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-offset-6 col-md-4 hideaftersubmit">
+				<div class="form-login">
+					<h4>Welcome to The Battleship.</h4>
+					<input type="text" id="userName" class="form-control input-sm chat-input" placeholder="Enter Your Name" />
+					</br>
+					<div class="wrapper">
+						<span class="group-btn">
+							<a href="#" class="btn btn-primary btn-md enterGame">Enter In Game <i class="fa fa-sign-in"></i></a>
+						</span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div>
+		<div class="gameboard">
+			<div class="clearfix"></div>
+			<h2 class="text-center">5 Sheep Battleship Game</h2>
+			<div class="grid">
+				<div class="row">
+					<div class="box" id="A1">
+						<div class="inner">1</div>
+					</div>
+					<div class="box" id="A2">
+						<div class="inner">2</div>
+					</div>
+					<div class="box" id="A3">
+						<div class="inner">3</div>
+					</div>
+					<div class="box" id="A4">
+						<div class="inner">4</div>
+					</div>
+					<div class="box" id="A5">
+						<div class="inner">5</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="box" id="B1">
+						<div class="inner">6</div>
+					</div>
+					<div class="box" id="B2">
+						<div class="inner">7</div>
+					</div>
+					<div class="box" id="B3">
+						<div class="inner">8</div>
+					</div>
+					<div class="box" id="B4">
+						<div class="inner">9</div>
+					</div>
+					<div class="box" id="B5">
+						<div class="inner">10</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="box" id="C1">
+						<div class="inner">11</div>
+					</div>
+					<div class="box" id="C2">
+						<div class="inner">12</div>
+					</div>
+					<div class="box" id="C3">
+						<div class="inner">13</div>
+					</div>
+					<div class="box" id="C4">
+						<div class="inner">14</div>
+					</div>
+					<div class="box" id="C5">
+						<div class="inner">15</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="box" id="D1">
+						<div class="inner">16</div>
+					</div>
+					<div class="box" id="D2">
+						<div class="inner">17</div>
+					</div>
+					<div class="box" id="D3">
+						<div class="inner">18</div>
+					</div>
+					<div class="box" id="D4">
+						<div class="inner">19</div>
+					</div>
+					<div class="box" id="D5">
+						<div class="inner">20</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="box" id="E1">
+						<div class="inner">21</div>
+					</div>
+					<div class="box" id="E2">
+						<div class="inner">22</div>
+					</div>
+					<div class="box" id="E3">
+						<div class="inner">23</div>
+					</div>
+					<div class="box" id="E4">
+						<div class="inner">24</div>
+					</div>
+					<div class="box" id="E5">
+						<div class="inner">25</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<br>
+						<br>
+						<br>
+						<button class="btn btn-primary startGame">Start Game</button>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="app.js"></script>
+</body>
+
+</html>  -->
+
+<html lang="en">
+<head>
+  	<meta charset="utf-8">
+	  <title>BattleShip</title>	
+	  <link rel="stylesheet" type="text/css" href="app.css">
+
+</head>
+<body>
+		<div class="container">
+				<div class="row">
+					<div class="col-md-offset-6 col-md-4 hideaftersubmit">
+						<div class="form-login">
+							<h4>Welcome to The Battleship.</h4>
+							<input type="text" id="userName" class="form-control input-sm chat-input" placeholder="Enter Your Name" />
+							</br>
+							<div class="wrapper">
+								<span class="group-btn">
+									<a href="#" class="btn btn-primary btn-md enterGame">Enter In Game <i class="fa fa-sign-in"></i></a>
+								</span>
+							</div>
+						</div>
+		
+					</div>
+				</div>
+			</div>
+			
+  <div id="main">
+    <div class="board">
+      <div class="displays">
+        <div class="top">
+          <ul class="grid"></ul>
+        </div>
+        <div class="bottom">
+          <ul class="grid"></ul>
+        </div>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="topPanel">
+        <div class="layout">
+          <div class='buttons one'>One-Player</div>
+          <div class='buttons multi'>Two-Player</div>
+          <div class='buttons options'>Options</div>
+        </div>
+      </div>
+      <div class='console'>
+        <span class='text'></span></div>
+    </div>
+  </div>
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
